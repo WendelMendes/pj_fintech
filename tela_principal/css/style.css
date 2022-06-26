@@ -23,40 +23,6 @@ body{
     color: var(--tertiary);
 }
 
-
-#presentation {
-    background-image: linear-gradient(to right, #0F1D2B, #419FB7);
-    height: 100vh;
-}
-
-#presentation h1 {
-    color: white;
-    font-weight: 900;
-}
-
-#presentation p1 {
-    color: white;
-    font-size: 18px;
-    font-weight: 300;
-    display: block;
-}
-
-#beneficio {
-    background-color: var(--secondary);
-    height: 95vh;
-}
-
-#beneficio h2 {
-    color: white;
-    font-weight: 900;
-}
-
-#beneficio h3 {
-    color: var(--tertiary);
-    font-size: 18px;
-    font-weight: 300;
-}
-
 .button-primary-outline {
     border-color: white;
     color: white;
@@ -76,6 +42,52 @@ body{
     background-color: var(--tertiary);
     border-color: var(--tertiary);
 }
+
+
+#presentation {
+    background-image: linear-gradient(to right, #0F1D2B, #419FB7);
+    min-height: 100vh;
+}
+
+#presentation h1 {
+    color: white;
+    font-weight: 900;
+}
+
+#presentation p1 {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    display: block;
+}
+
+#beneficio {
+    background-color: var(--secondary);
+    min-height: 95vh;
+}
+
+#beneficio h2 {
+    color: white;
+    font-weight: 900;
+}
+
+#beneficio h3 {
+    color: var(--tertiary);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+ul{
+    color: white;
+    list-style: none;
+    font-size: 2em;
+}
+
+cite{
+    color: white;
+}
+
+
 
 footer p {
     text-align: center;
