@@ -39,7 +39,7 @@ body{
 }
 
 .titulo1 {
-    color: var(--color-five);
+    color: var(--color-four);
     font-size: 3vw; /*3vw*/
 }
 
@@ -69,7 +69,7 @@ body{
 }
 
 .titulo2{
-    color: var(--color-four);
+    color: var(--color-five);
     font-weight: 800;
 }
 
